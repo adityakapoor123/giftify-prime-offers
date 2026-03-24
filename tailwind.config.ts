@@ -9,11 +9,18 @@ export default {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        "2xl": "1200px",
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
       colors: {
+        "surface-dark": "hsl(var(--surface-dark))",
+        "surface-dark-foreground": "hsl(var(--surface-dark-foreground))",
+        "surface-warm": "hsl(var(--surface-warm))",
+        "trust-green": "hsl(var(--trust-green))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
