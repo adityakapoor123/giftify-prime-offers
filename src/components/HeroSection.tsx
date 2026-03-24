@@ -22,13 +22,23 @@ const HeroSection = () => {
             <p className="text-lg md:text-xl text-surface-dark-foreground/70 max-w-lg">
               Exclusive rewards available in selected countries. Check if you're eligible and claim your reward today.
             </p>
-            <Button
-              size="lg"
-              onClick={scrollToAvailability}
-              className="text-lg px-8 py-6 font-semibold shadow-lg shadow-primary/30 hover:shadow-xl hover:shadow-primary/40 transition-all"
-            >
-              Check Availability
-            </Button>
+            <div className="flex flex-wrap gap-4">
+              <Button
+                size="lg"
+                onClick={scrollToAvailability}
+                className="text-lg px-8 py-6 font-semibold shadow-lg shadow-primary/30 hover:shadow-xl hover:shadow-primary/40 transition-all"
+              >
+                Check Availability
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                onClick={() => window.open("https://giftclick.org/aff_c?offer_id=340&aff_id=172627", "_blank")}
+                className="text-lg px-8 py-6 font-semibold border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all"
+              >
+                Claim Now
+              </Button>
+            </div>
           </div>
           <div className="flex justify-center md:justify-end">
             <img

@@ -11,7 +11,7 @@ const CtaSection = () => (
       <Button
         size="lg"
         className="text-lg px-10 py-6 font-semibold shadow-lg shadow-primary/30 hover:shadow-xl hover:shadow-primary/40 transition-all group"
-        onClick={() => window.open("#", "_blank")}
+        onClick={() => window.open("https://giftclick.org/aff_c?offer_id=340&aff_id=172627", "_blank")}
       >
         Get Started
         <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
