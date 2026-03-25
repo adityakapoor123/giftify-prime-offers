@@ -33,7 +33,7 @@ const HeroSection = () => {
               <Button
                 size="lg"
                 variant="outline"
-                onClick={() => window.open("https://giftclick.org/aff_c?offer_id=340&aff_id=172627", "_blank")}
+                onClick={() => window.open("https://giftclick.org/aff_c?offer_id=340&aff_id=172627&source=Horrix", "_blank")}
                 className="text-lg px-8 py-6 font-semibold border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all"
               >
                 Claim Now
